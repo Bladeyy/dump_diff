@@ -125,5 +125,32 @@ INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('466','92','119','
 INSERT INTO qcril_emergency_source_voice_mcc_mnc_table VALUES('466','92','110','','');
 /*Modify for qcril_emergency_source_voice_mcc_mnc_table end>*/
 
+/*<Modify for qcril_emergency_source_mcc_mnc_table start*/
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '09' AND NUMBER = '133';
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '09' AND NUMBER = '112';
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '09' AND NUMBER = '911';
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','09','133','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','09','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','09','911','','');
+/*Modify for qcril_emergency_source_mcc_mnc_table end>*/
+
+/*<Modify for qcril_emergency_source_mcc_mnc_table start*/
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '03' AND NUMBER = '133';
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '03' AND NUMBER = '112';
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '03' AND NUMBER = '911';
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','03','133','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','03','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','03','911','','');
+/*Modify for qcril_emergency_source_mcc_mnc_table end>*/
+
+/*<Modify for qcril_emergency_source_mcc_mnc_table start*/
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '23' AND NUMBER = '133';
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '23' AND NUMBER = '112';
+DELETE FROM qcril_emergency_source_mcc_mnc_table where MCC = '730' AND MNC = '23' AND NUMBER = '911';
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','23','133','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','23','112','','');
+INSERT INTO qcril_emergency_source_mcc_mnc_table VALUES('730','23','911','','');
+/*Modify for qcril_emergency_source_mcc_mnc_table end>*/
+
 
 COMMIT TRANSACTION;

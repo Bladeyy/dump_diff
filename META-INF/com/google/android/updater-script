@@ -1,5 +1,5 @@
 getprop("ro.product.device") == "lavender" || abort("E3004: This package is for \"lavender\" devices; this is a \"" + getprop("ro.product.device") + "\".");
-ui_print("Target: xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.3.5.0.PFGMIXM:user/release-keys");
+ui_print("Target: xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.3.6.0.PFGMIXM:user/release-keys");
 show_progress(0.100000, 5);
 show_progress(0.200000, 10);
 package_extract_file("boot.img", "/dev/block/bootdevice/by-name/boot");

@@ -34,6 +34,8 @@ mcfg_sw/generic/eu/play/poland_c/mcfg_sw.mbn
 mcfg_sw/generic/eu/plus/poland_c/mcfg_sw.mbn
 mcfg_sw/generic/eu/tmo/poland_c/mcfg_sw.mbn
 mcfg_sw/generic/eu/digi/romania_/mcfg_sw.mbn
+mcfg_sw/generic/latam/claro/commerci/colombia/mcfg_sw.mbn
+mcfg_sw/generic/latam/wom/commerci/mcfg_sw.mbn
 mcfg_sw/generic/korea/kt/commerci/mcfg_sw.mbn
 mcfg_sw/generic/korea/lgu/commerci/mcfg_sw.mbn
 mcfg_sw/generic/korea/skt/commerci/mcfg_sw.mbn
@@ -59,3 +61,4 @@ mcfg_sw/generic/sea/ais/commerci/thailand/mcfg_sw.mbn
 mcfg_sw/generic/sea/dtac/commerci/volte/mcfg_sw.mbn
 mcfg_sw/generic/sea/apt/commerci/mcfg_sw.mbn
 mcfg_sw/generic/sa/peru/commerci/mcfg_sw.mbn
+mcfg_sw/generic/sa/chile/commerci/mcfg_sw.mbn

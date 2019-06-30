@@ -362,11 +362,13 @@ modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/amx/volte/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/claro/commerci/colombia/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/telefoni/commerci/colombia/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/telefoni/commerci/peru/mcfg_sw.mbn
+modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/latam/wom/commerci/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/mea/stc/commerci/sa/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/russia/beeline/gen_3gpp/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/russia/megafon/commerci/ru/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/russia/mts/commerci/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/sa/brazil/commerci/mcfg_sw.mbn
+modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/sa/chile/commerci/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/sa/peru/commerci/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/3hk/commerci/hk/mcfg_sw.mbn
 modem/image/modem_pr/mcfg/configs/mcfg_sw/generic/sea/ais/commerci/thailand/mcfg_sw.mbn
@@ -650,8 +652,6 @@ system/system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk
 system/system/app/GoogleCalendarSyncAdapter/oat/arm64/GoogleCalendarSyncAdapter.odex
 system/system/app/GoogleCalendarSyncAdapter/oat/arm64/GoogleCalendarSyncAdapter.vdex
 system/system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk
-system/system/app/GoogleContactsSyncAdapter/oat/arm64/GoogleContactsSyncAdapter.odex
-system/system/app/GoogleContactsSyncAdapter/oat/arm64/GoogleContactsSyncAdapter.vdex
 system/system/app/GoogleExtShared/GoogleExtShared.apk
 system/system/app/GoogleExtShared/oat/arm64/GoogleExtShared.odex
 system/system/app/GoogleExtShared/oat/arm64/GoogleExtShared.vdex
@@ -659,8 +659,6 @@ system/system/app/GooglePrintRecommendationService/GooglePrintRecommendationServ
 system/system/app/GooglePrintRecommendationService/oat/arm64/GooglePrintRecommendationService.odex
 system/system/app/GooglePrintRecommendationService/oat/arm64/GooglePrintRecommendationService.vdex
 system/system/app/GoogleTTS/GoogleTTS.apk
-system/system/app/GoogleTTS/oat/arm64/GoogleTTS.odex
-system/system/app/GoogleTTS/oat/arm64/GoogleTTS.vdex
 system/system/app/GuardProvider/GuardProvider.apk
 system/system/app/GuardProvider/oat/arm64/GuardProvider.odex
 system/system/app/GuardProvider/oat/arm64/GuardProvider.vdex
@@ -1097,6 +1095,7 @@ system/system/build.prop
 system/system/compatibility_matrix.xml
 system/system/data-app/Miui_Fashiongallery_global_new/Miui_Fashiongallery_global_new.apk
 system/system/data-app/VirtualSim/VirtualSim.apk
+system/system/data-app/XMRemoteController/XMRemoteController.apk
 system/system/etc/NOTICE.xml.gz
 system/system/etc/apns-conf.xml
 system/system/etc/appmanager.conf
@@ -1308,6 +1307,8 @@ system/system/etc/permissions/readproc_permission.xml
 system/system/etc/permissions/settings-aapt2-lib-rename.xml
 system/system/etc/permissions/telephonyservice.xml
 system/system/etc/permissions/uimremoteclient.xml
+system/system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
+system/system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
 system/system/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml
 system/system/etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml
 system/system/etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml
@@ -2165,6 +2166,10 @@ system/system/framework/oat/arm/vendor.qti.latency-V2.0-java.odex
 system/system/framework/oat/arm/vendor.qti.latency-V2.0-java.vdex
 system/system/framework/oat/arm/vendor.qti.voiceprint-V1.0-java.odex
 system/system/framework/oat/arm/vendor.qti.voiceprint-V1.0-java.vdex
+system/system/framework/oat/arm/vendor.xiaomi.hardware.misys-V1.0-java.odex
+system/system/framework/oat/arm/vendor.xiaomi.hardware.misys-V1.0-java.vdex
+system/system/framework/oat/arm/vendor.xiaomi.hardware.misys-V2.0-java.odex
+system/system/framework/oat/arm/vendor.xiaomi.hardware.misys-V2.0-java.vdex
 system/system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.0-java.odex
 system/system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.0-java.vdex
 system/system/framework/oat/arm/vendor.xiaomi.hardware.mtdservice-V1.1-java.odex
@@ -2315,6 +2320,10 @@ system/system/framework/oat/arm64/vendor.qti.latency-V2.0-java.odex
 system/system/framework/oat/arm64/vendor.qti.latency-V2.0-java.vdex
 system/system/framework/oat/arm64/vendor.qti.voiceprint-V1.0-java.odex
 system/system/framework/oat/arm64/vendor.qti.voiceprint-V1.0-java.vdex
+system/system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V1.0-java.odex
+system/system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V1.0-java.vdex
+system/system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V2.0-java.odex
+system/system/framework/oat/arm64/vendor.xiaomi.hardware.misys-V2.0-java.vdex
 system/system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.0-java.odex
 system/system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.0-java.vdex
 system/system/framework/oat/arm64/vendor.xiaomi.hardware.mtdservice-V1.1-java.odex
@@ -2373,6 +2382,8 @@ system/system/framework/vendor.qti.ims.callinfo-V1.0-java.jar
 system/system/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
 system/system/framework/vendor.qti.latency-V2.0-java.jar
 system/system/framework/vendor.qti.voiceprint-V1.0-java.jar
+system/system/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
+system/system/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
 system/system/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
 system/system/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
 system/system/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar
@@ -2927,6 +2938,8 @@ system/system/lib/vendor.qti.ims.rcsconfig@1.0.so
 system/system/lib/vendor.qti.imsrtpservice@1.0.so
 system/system/lib/vendor.qti.latency@2.0.so
 system/system/lib/vendor.qti.voiceprint@1.0.so
+system/system/lib/vendor.xiaomi.hardware.misys@1.0.so
+system/system/lib/vendor.xiaomi.hardware.misys@2.0.so
 system/system/lib/vndk-28/android.frameworks.displayservice@1.0.so
 system/system/lib/vndk-28/android.frameworks.schedulerservice@1.0.so
 system/system/lib/vndk-28/android.frameworks.sensorservice@1.0.so
@@ -3767,6 +3780,8 @@ system/system/lib64/vendor.qti.ims.rcsconfig@1.0.so
 system/system/lib64/vendor.qti.imsrtpservice@1.0.so
 system/system/lib64/vendor.qti.latency@2.0.so
 system/system/lib64/vendor.qti.voiceprint@1.0.so
+system/system/lib64/vendor.xiaomi.hardware.misys@1.0.so
+system/system/lib64/vendor.xiaomi.hardware.misys@2.0.so
 system/system/lib64/vndk-28/android.frameworks.displayservice@1.0.so
 system/system/lib64/vndk-28/android.frameworks.schedulerservice@1.0.so
 system/system/lib64/vndk-28/android.frameworks.sensorservice@1.0.so
@@ -4338,8 +4353,6 @@ system/system/priv-app/CloudServiceSysbase/CloudServiceSysbase.apk
 system/system/priv-app/CloudServiceSysbase/oat/arm64/CloudServiceSysbase.odex
 system/system/priv-app/CloudServiceSysbase/oat/arm64/CloudServiceSysbase.vdex
 system/system/priv-app/ConfigUpdater/ConfigUpdater.apk
-system/system/priv-app/ConfigUpdater/oat/arm64/ConfigUpdater.odex
-system/system/priv-app/ConfigUpdater/oat/arm64/ConfigUpdater.vdex
 system/system/priv-app/Contacts/Contacts.apk
 system/system/priv-app/ContactsProvider/ContactsProvider.apk
 system/system/priv-app/ContactsProvider/oat/arm64/ContactsProvider.odex
@@ -4848,6 +4861,8 @@ vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
+vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
 vendor/bin/hw/wpa_supplicant
 vendor/bin/icm
 vendor/bin/ims_rtp_daemon
@@ -5185,6 +5200,8 @@ vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/etc/init/vendor.xiaomi.hardware.mfidoca@1.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.mtdservice@1.2-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.tidaservice@1.1-service.rc
@@ -5501,6 +5518,8 @@ vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
+vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vibrator.default.so
 vendor/lib/hw/vulkan.sdm660.so
 vendor/lib/lib-dplmedia.so
@@ -8137,6 +8156,8 @@ vendor/lib/vendor.qti.imsrtpservice@1.0.so
 vendor/lib/vendor.qti.latency@2.0.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
+vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
+vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib/vendor.xiaomi.hardware.mtdservice@1.0.so
@@ -8229,6 +8250,8 @@ vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vibrator.default.so
 vendor/lib64/hw/vulkan.sdm660.so
 vendor/lib64/lib-dplmedia.so
@@ -8619,6 +8642,8 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/lib64/vendor.qti.latency@2.0.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so

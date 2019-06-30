@@ -7,10 +7,10 @@
         <app path="/system/app/RegisterHelper.apk">cn_chinaunicom</app>
         <app path="/system/app/AutoRegistration.apk">cn cn_chinatelecom</app>
         <app path="/system/app/AutoRegistration">cn cn_chinatelecom</app>
-        <app path="/system/app/SmsLteRegister.apk">cn_chinatelecom</app>
-        <app path="/system/app/SmsLteRegister">cn_chinatelecom</app>
-        <app path="/system/app/SmsRegister.apk">cn_chinatelecom</app>
-        <app path="/system/app/SmsRegister">cn_chinatelecom</app>
+        <app path="/system/app/SmsLteRegister.apk">cn cn_chinatelecom</app>
+        <app path="/system/app/SmsLteRegister">cn cn_chinatelecom</app>
+        <app path="/system/app/SmsRegister.apk">cn cn_chinatelecom</app>
+        <app path="/system/app/SmsRegister">cn cn_chinatelecom</app>
         <app path="/system/app/DeviceRegister.apk">cn cn_chinatelecom</app>
         <app path="/system/app/DeviceRegister">cn cn_chinatelecom</app>
         <app path="/system/app/SelfRegister.apk">cn cn_chinatelecom</app>

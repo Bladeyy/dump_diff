@@ -159,6 +159,7 @@
 30060 am_on_destroy_called (User|1|5),(Component Name|3),(Reason|3)
 30061 am_remove_task (Task ID|1|5), (Stack ID|1|5)
 30062 am_on_activity_result_called (User|1|5),(Component Name|3),(Reason|3)
+30099 event_statusbar_state (type|1)
 30100 am_lifecycle_sample (User|1|5),(Process Name|3),(MessageCode|1|5),(time|1|3)
 31000 wm_no_surface_memory (Window|3),(PID|1|5),(Operation|3)
 31001 wm_task_created (TaskId|1|5),(StackId|1|5)

@@ -150,6 +150,7 @@ applications that come with the miui
         <permission name="android.permission.STOP_APP_SWITCHES"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.UPDATE_APP_OPS_STATS" />
+        <permission name="android.permission.MANAGE_APP_OPS_MODES" />
     </privapp-permissions>
 
     <privapp-permissions package="com.xiaomi.scanner">
@@ -543,5 +544,40 @@ applications that come with the miui
     <privapp-permissions package="com.miui.newhome">
        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="co.sitic.pp">
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.RECEIVE_SMS"/>
+        <permission name="android.permission.INTERNET"/>
+        <permission name="android.permission.CALL_PHONE"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.STATUS_BAR"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.speedymovil.wire">
+        <permission name="android.permission.READ_LOGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.claroColombia.contenedor">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.BROADCAST_PACKAGE_REMOVED"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.celltick.lockscreen">
+        <permission name="android.permission.BATTERY_STATS"/>
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.STOP_APP_SWITCHES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     </privapp-permissions>
 </permissions>

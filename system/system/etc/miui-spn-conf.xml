@@ -96,4 +96,12 @@
 
     <!-- Providers in Germany -->
     <spn numeric="26203" alpha="o2 - de" short="o2 - de" />
+
+    <!-- H3G -->
+    <spn numeric="23420" alpha="3" short="3" />
+
+    <!-- H3G Virtual Providers -->
+    <spn numeric="23420" condition="gid1:0305" alpha="iD" short="iD" mvno="true"/>
+    <spn numeric="23420" condition="gid1:0309" alpha="SMARTY" short="SMARTY" mvno="true"/>
+    <spn numeric="23420" condition="gid1:0310" alpha="Superdrug" short="Superdrug" mvno="true"/>
 </spns>
