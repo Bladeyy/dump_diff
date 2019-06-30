@@ -1,6 +1,7 @@
 mcfg_sw/generic/apac/reliance/commerci/mcfg_sw.mbn
 mcfg_sw/generic/apac/airtel/commerci/mcfg_sw.mbn
 mcfg_sw/generic/apac/idea/commerci/mcfg_sw.mbn
+mcfg_sw/generic/apac/mobitel/commerci/mcfg_sw.mbn
 mcfg_sw/generic/china/cmcc/commerci/volte_op/mcfg_sw.mbn
 mcfg_sw/generic/china/ct/commerci/volte_op/mcfg_sw.mbn
 mcfg_sw/generic/china/cu/commerci/openmkt/mcfg_sw.mbn
@@ -26,9 +27,11 @@ mcfg_sw/generic/eu/orange/commerci/romania/mcfg_sw.mbn
 mcfg_sw/generic/eu/vodafone/volte/uk/mcfg_sw.mbn
 mcfg_sw/generic/eu/vodafone/volte/italy/mcfg_sw.mbn
 mcfg_sw/generic/eu/vodafone/volte/spain/mcfg_sw.mbn
+mcfg_sw/generic/eu/vodafone/volte/turkey/mcfg_sw.mbn
 mcfg_sw/generic/eu/tim/commerci/italy/mcfg_sw.mbn
 mcfg_sw/generic/eu/o2/uk_comme/mcfg_sw.mbn
 mcfg_sw/generic/eu/play/poland_c/mcfg_sw.mbn
+mcfg_sw/generic/eu/plus/poland_c/mcfg_sw.mbn
 mcfg_sw/generic/eu/tmo/poland_c/mcfg_sw.mbn
 mcfg_sw/generic/eu/digi/romania_/mcfg_sw.mbn
 mcfg_sw/generic/korea/kt/commerci/mcfg_sw.mbn
@@ -46,6 +49,7 @@ mcfg_sw/generic/sea/tm/commerci/mcfg_sw.mbn
 mcfg_sw/generic/sea/singtel/commerci/singapor/mcfg_sw.mbn
 mcfg_sw/generic/sea/starhub/commerci/sg/mcfg_sw.mbn
 mcfg_sw/generic/sea/m1/commerci/sg/mcfg_sw.mbn
+mcfg_sw/generic/sea/mytel/commerci/Myanmar/mcfg_sw.mbn
 mcfg_sw/generic/sea/smartfre/commerci/vowifi/mcfg_sw.mbn
 mcfg_sw/generic/sea/seatel/commerci/mcfg_sw.mbn
 mcfg_sw/generic/sea/tstar/commerci/tw/mcfg_sw.mbn

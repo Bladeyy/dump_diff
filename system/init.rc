@@ -209,6 +209,9 @@ on init
     chown system system /sys/class/graphics/fb0/msm_fb_cabc
     chown system system /sys/class/graphics/fb0/msm_fb_srgb
     chown system system /sys/class/graphics/fb0/msm_fb_gamma
+    chown system system /sys/class/graphics/fb0/msm_fb_cabc_movie
+    chown system system /sys/class/graphics/fb0/msm_fb_cabc_still
+    chown system system /sys/class/graphics/fb0/msm_fb_hbm
 
     # set system-background to 0775 so SurfaceFlinger can touch it
     chmod 0775 /dev/cpuset/system-background

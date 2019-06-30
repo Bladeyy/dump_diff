@@ -253,9 +253,10 @@ persist.vendor.camera.switch.aux u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.debug.hht.luma u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.debug.checkerf u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.pdaf.enable  u:object_r:vendor_camera_prop:s0
+persist.vendor.camera.flash.exif.correct  u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.              u:object_r:vendor_camera_prop:s0
 vendor.camera.thermal_lc             u:object_r:vendor_camera_prop:s0
-
+vendor.camera.eis.gyro_name             u:object_r:vendor_gyro_prop:s0
 #rmt_storage
 ctl.vendor.rmt_storage     u:object_r:ctl_vendor_rmt_storage_prop:s0
 #GPU Available frequencies
@@ -291,9 +292,13 @@ sys.ad.enable  u:object_r:ad_system_prop:s0
 persist.sys.fp.info              u:object_r:vendor_system_prop:s0
 #persist.sys.fp.vendor           u:object_r:fpsensor_prop:s0
 persist.vendor.sys.fp.vendor     u:object_r:vendor_system_prop:s0
-persist.sys.fp.module			 u:object_r:vendor_system_prop:s0
-persist.sys.fp.uid				 u:object_r:vendor_system_prop:s0
+persist.vendor.sys.fp.module			 u:object_r:vendor_system_prop:s0
+persist.vendor.sys.fp.uid				 u:object_r:vendor_system_prop:s0
 ro.boot.fpsensor				 u:object_r:vendor_system_prop:s0
+
+#add for wifi sar
+persist.vendor.sys.wifisarDIS1            u:object_r:wifisarDIS1_prop:s0
+persist.vendor.sys.wifisarDIS2            u:object_r:wifisarDIS2_prop:s0
 
 #add thermal dynamic switching
 sys.thermal.                             u:object_r:thermal_engine_prop:s0

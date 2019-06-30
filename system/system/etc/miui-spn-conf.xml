@@ -13,7 +13,6 @@
 
     <!--  Providers in Taiwan -->
     <spn numeric="46601" alpha="FarEasTone" short="FarEasTone" alpha-zh="远传电信" short-zh="远传" alpha-zh_TW="遠傳電信" short-zh_TW="遠傳" />
-    <spn numeric="46605" alpha="Gt" short="Gt" alpha-zh="Gt" short-zh="Gt" alpha-zh_TW="Gt" short-zh_TW="Gt" />
     <spn numeric="46689" alpha="T Star" short="T Star" alpha-zh="台湾之星" short-zh="台湾之星" alpha-zh_TW="台灣之星" short-zh_TW="台灣之星" />
     <spn numeric="46689" alpha="T Star" short="T Star" alpha-zh="台湾之星" short-zh="台湾之星" alpha-zh_TW="台灣之星" short-zh_TW="台灣之星" />
     <spn numeric="46692" alpha="Chunghwa" short="Chunghwa" alpha-zh="中华电信" short-zh="中华" alpha-zh_TW="中華電信" short-zh_TW="中華" />
@@ -64,6 +63,7 @@
 
     <!-- Virtual Providers in United Kingdom -->
     <spn numeric="23430" condition="alpha;gid1:28;imsi:2080120801xxx67xxxxx" alpha="Virgin" short="Virgin" mvno="true"/>
+    <spn numeric="23438" condition="alpha;gid1:28" alpha="Virgin" short="Virgin" mvno="true"/>
 
     <!-- Providers in Russian Federation -->
     <spn numeric="25011" alpha="YOTA" short="YOTA" />
@@ -77,6 +77,9 @@
 
     <!-- Providers in India -->
     <spn numeric="40417,40441,40491" alpha="Aircel" short="Aircel" condition="numericSpn"/>
+
+    <!-- Providers in Myanmar-->
+    <spn numeric="41401" alpha="MPT" short="MPT" />
 
     <!-- Providers in France-->
     <spn numeric="20815" alpha="Free" short="Free" />

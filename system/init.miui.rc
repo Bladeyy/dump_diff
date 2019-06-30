@@ -65,10 +65,14 @@ on post-fs-data
     mkdir /data/system 0775 system system
     mkdir /data/system/mcd 0755 system system
     mkdir /data/system/whetstone 0770 system system
+    mkdir /data/system/migt 0777 system system
     restorecon_recursive /data/system/mcd
     restorecon_recursive /data/system/whetstone
+    restorecon_recursive /data/system/migt
     restorecon /sys/kernel/debug/system_stats
     restorecon /sys/kernel/debug/msm_subsys/modem
+    chmod 0777 /data/system/migt
+    chmod 0777 /data/system/migt/migt
 
 on post-fs-data
     chown system system /sys/hwconf
@@ -212,10 +216,10 @@ service miui-post-boot /system/bin/sh /init.miui.post_boot.sh
     disabled
     oneshot
 
-service hardcoder /system/xbin/hardcoder
+service miuibooster /system/xbin/miuibooster
     class main
     user root
-    socket miui_wechat stream 660 system system
+    socket miui_booster stream 660 system system
     oneshot
 
 on boot

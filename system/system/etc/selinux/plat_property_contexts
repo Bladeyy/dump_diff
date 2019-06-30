@@ -213,6 +213,8 @@ ro.ril.miui.imei        u:object_r:deviceid_prop:s0
 
 # persist prop for dex2oat-threads
 persist.dalvik.vm.dex2oat-threads  u:object_r:dalvik_prop:s0
+
+ro.product.mod_device    u:object_r:exported2_default_prop:s0
 #line 1 "system/sepolicy/public/property_contexts"
 # vendor-init-readable
 persist.radio.airplane_mode_on u:object_r:exported2_radio_prop:s0 exact int

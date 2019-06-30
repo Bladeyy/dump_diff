@@ -1,8 +1,8 @@
 
 ro.product.first_api_level=28
-ro.vendor.build.date=Sun Apr 7 22:18:08 WIB 2019
-ro.vendor.build.date.utc=1554650288
-ro.vendor.build.fingerprint=xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.2.11.0.PFGINXM:user/release-keys
+ro.vendor.build.date=Wed Apr 24 13:00:55 WIB 2019
+ro.vendor.build.date.utc=1556085655
+ro.vendor.build.fingerprint=xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.3.5.0.PFGMIXM:user/release-keys
 ro.vendor.build.security_patch=2018-06-05
 ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
 ro.vendor.product.cpu.abilist32=armeabi-v7a,armeabi

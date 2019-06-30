@@ -33,3 +33,6 @@ user=_app seinfo=platform name=com.xiaomi.shop:mishop.push domain=untrusted_app 
 user=_app seinfo=platform name=com.xiaomi.shop:remote domain=untrusted_app type=app_data_file levelFrom=user
 user=_app seinfo=platform name=com.xiaomi.o2o domain=untrusted_app type=app_data_file levelFrom=user
 user=_app seinfo=platform isPrivApp=true name=com.miui.gallery domain=priv_app type=app_data_file levelFrom=user
+user=_app seinfo=platform isPrivApp=true name=com.miui.personalassistant domain=untrusted_app type=app_data_file levelFrom=user
+user=_app seinfo=platform isPrivApp=true name=com.miui.personalassistant:alipayinside domain=untrusted_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.xiaomi.jr domain=untrusted_app type=app_data_file levelFrom=user

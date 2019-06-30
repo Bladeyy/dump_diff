@@ -218,6 +218,7 @@ miui.fdpp u:object_r:fdpp_service:s0
 miui.sedc u:object_r:sedc_service:s0
 miui.mqsas.MQSService u:object_r:mqs_service:s0
 miui.mqsas.IMQSNative u:object_r:mqsasd_service:s0
+miui.face.FaceService u:object_r:face_service:s0
 miui.contentcatcher.ContentCatcherService u:object_r:system_app_service:s0
 miui.reportlog         u:object_r:system_app_service:s0
 security          u:object_r:security_service:s0

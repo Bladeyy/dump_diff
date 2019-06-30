@@ -138,6 +138,7 @@
 /data/local/tmp(/.*)?		u:object_r:shell_data_file:s0
 /dev/block/vold/.+		u:object_r:vold_device:s0
 /dev/android_mdb.*		u:object_r:mdb_device:s0
+/sys/module/migt(/.*)?		u:object_r:sysfs_migt:s0
 /data/system/mcd(/.*)?		u:object_r:mcd_data_file:s0
 /data/misc/seemp(/.*)?		u:object_r:seemp_data_file:s0
 /data/misc/trace(/.*)?		u:object_r:method_trace_data_file:s0
@@ -148,6 +149,7 @@
 /data/vendor_de/[0-9]+/fpdata(/.*)?		u:object_r:fingerprint_vendor_data_file:s0
 /data/system_de/[0-9]+/ringtones(/.*)?		u:object_r:ringtone_file:s0
 /data/system_ce/[0-9]+/shortcut_service/bitmaps(/.*)?		u:object_r:shortcut_manager_icons:s0
+/data/system/migt(/.*)?		u:object_r:migt_file:s0
 /data/misc/camera(/.*)?		u:object_r:camera_data_file:s0
 /data/app-private(/.*)?		u:object_r:apk_private_data_file:s0
 /data/ota_package(/.*)?		u:object_r:ota_package_file:s0
@@ -197,8 +199,8 @@
 /data/misc/stats-data(/.*)?		u:object_r:stats_data_file:s0
 /data/misc/systemkeys(/.*)?		u:object_r:systemkeys_data_file:s0
 /data/misc/gatekeeper(/.*)?		u:object_r:gatekeeper_data_file:s0
-/sys/kernel/debug/rtmm(/.*)?		u:object_r:debugfs_rtmm:s0
 /data/system/whetstone(/.*)?		u:object_r:whetstone_data_file:s0
+/sys/kernel/debug/rtmm(/.*)?		u:object_r:debugfs_rtmm:s0
 /data/misc/audioserver(/.*)?		u:object_r:audioserver_data_file:s0
 /data/app-private/vmdl.*\.tmp(/.*)?		u:object_r:apk_private_tmp_file:s0
 /data/misc/profiles/ref(/.*)?		u:object_r:user_profile_data_file:s0
@@ -260,6 +262,7 @@
 /dev/null		u:object_r:null_device:s0
 /sepolicy		u:object_r:sepolicy_file:s0
 /adb_keys		u:object_r:adb_keys_file:s0
+/dev/migt		u:object_r:migt_dev:s0
 /dev/smd7		u:object_r:smd7_device:s0
 /dev/pmsg0		u:object_r:pmsg_device:s0
 /dev/pn544		u:object_r:nfc_device:s0
@@ -295,8 +298,8 @@
 /dev/rproc_user		u:object_r:rpmsg_device:s0
 /seapp_contexts		u:object_r:seapp_contexts_file:s0
 /d/system_stats		u:object_r:debugfs_subsys:s0
-/system/bin/mcd		u:object_r:mcd_exec:s0
 /system/bin/mmi		u:object_r:vendor_mmi_sys_exec:s0
+/system/bin/mcd		u:object_r:mcd_exec:s0
 /dev/socket/tcm		u:object_r:dpmtcm_socket:s0
 /system/bin/vold		u:object_r:vold_exec:s0
 /system/bin/netd		u:object_r:netd_exec:s0
@@ -361,8 +364,8 @@
 /dev/socket/fwmarkd		u:object_r:fwmarkd_socket:s0
 /plat_file_contexts		u:object_r:file_contexts_file:s0
 /system/bin/checknv		u:object_r:checknv_exec:s0
-/system/xbin/mqsasd		u:object_r:mqsasd_exec:s0
 /system/xbin/shelld		u:object_r:shelld_exec:s0
+/system/xbin/mqsasd		u:object_r:mqsasd_exec:s0
 /dev/socket/seempdw		u:object_r:seempdw_socket:s0
 /system/bin/logcatd		--	u:object_r:logcat_exec:s0
 /system/bin/tune2fs		--	u:object_r:fsck_exec:s0
@@ -377,10 +380,9 @@
 /system/bin/bootstat		u:object_r:bootstat_exec:s0
 /plat_seapp_contexts		u:object_r:seapp_contexts_file:s0
 /vndservice_contexts		u:object_r:vndservice_contexts_file:s0
-/dev/xiaomi/wsevents		u:object_r:mcd_device:s0
 /dev/xiaomi_wsevents		u:object_r:mcd_device:s0
+/dev/xiaomi/wsevents		u:object_r:mcd_device:s0
 /system/bin/mmi_diag		u:object_r:vendor_mmi_sys_exec:s0
-/system/xbin/tcpdump		u:object_r:cnss_diag_system_exec:s0
 /system/bin/incidentd		u:object_r:incidentd_exec:s0
 /system/bin/perfprofd		u:object_r:perfprofd_exec:s0
 /system/bin/drmserver		u:object_r:drmserver_exec:s0
@@ -391,9 +393,10 @@
 /mapping_sepolicy\.cil		u:object_r:sepolicy_file:s0
 /nonplat_sepolicy\.cil		u:object_r:sepolicy_file:s0
 /vendor_file_contexts		u:object_r:file_contexts_file:s0
-/system/bin/exfatfsck		u:object_r:fsck_exec:s0
-/system/bin/mkexfatfs		u:object_r:e2fs_exec:s0
 /system/bin/bt_logger		u:object_r:bt_logger_exec:s0
+/system/bin/mkexfatfs		u:object_r:e2fs_exec:s0
+/dev/misysinfofreader		u:object_r:misysinfofreader_device:s0
+/system/bin/exfatfsck		u:object_r:fsck_exec:s0
 /system/bin/bpfloader		u:object_r:bpfloader_exec:s0
 /system/bin/make_f2fs		--	u:object_r:e2fs_exec:s0
 /system/bin/fsck\.f2fs		--	u:object_r:fsck_exec:s0
@@ -405,7 +408,6 @@
 /plat_service_contexts		u:object_r:service_contexts_file:s0
 /firmware/firmware_mnt		u:object_r:rootfs:s0
 /nonplat_file_contexts		u:object_r:file_contexts_file:s0
-/system/xbin/hardcoder		u:object_r:hardcoder_exec:s0
 /system/bin/dun-server		u:object_r:dun-server_exec:s0
 /system/bin/smcinvoked		u:object_r:smcinvoke_daemon_exec:s0
 /system/bin/qvrservice		u:object_r:qvrd_exec:s0
@@ -434,6 +436,7 @@
 /system/bin/blank_screen		u:object_r:blank_screen_exec:s0
 /vendor_service_contexts		u:object_r:nonplat_service_contexts_file:s0
 /plat_hwservice_contexts		u:object_r:hwservice_contexts_file:s0
+/system/xbin/miuibooster		u:object_r:miuibooster_exec:s0
 /dev/socket/qlogd_system		u:object_r:qlogd_system_socket:s0
 /system/bin/traced_probes		u:object_r:traced_probes_exec:s0
 /system/bin/update_engine		u:object_r:update_engine_exec:s0
@@ -470,7 +473,6 @@
 /dev/socket/zygote_secondary		u:object_r:zygote_socket:s0
 /system/bin/hwservicemanager		u:object_r:hwservicemanager_exec:s0
 /system/bin/mirrorlinkserver		u:object_r:mirrorlink_exec:s0
-/system/bin/cnss_diag_system		u:object_r:cnss_diag_system_exec:s0
 /system/xbin/system_perf_init		u:object_r:system_perf_init_exec:s0
 /sys/power/system_sleep/stats		u:object_r:sysfs_ro:s0
 /system/bin/diag_mdlog_system		u:object_r:qlogd_system_exec:s0

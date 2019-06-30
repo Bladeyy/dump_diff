@@ -231,6 +231,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.USER_ACTIVITY"/>
         <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
         <permission name="android.permission.ALLOCATE_AGGRESSIVE"/>
+        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.googlequicksearchbox">
